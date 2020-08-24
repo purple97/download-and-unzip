@@ -1,0 +1,16 @@
+{
+    "name": "download-and-unzip",
+    "version": "1.0.0",
+    "description": "下载github代码压缩包并解压",
+    "main": "./index.js",
+    "scripts": {
+        "del": "rm -rf ./download/**",
+        "start": "npm run del && node ./index.js"
+    },
+    "author": "dezhao.chen",
+    "license": "ISC",
+    "dependencies": {
+        "compressing": "^1.5.1",
+        "request": "^2.88.2"
+    }
+}
